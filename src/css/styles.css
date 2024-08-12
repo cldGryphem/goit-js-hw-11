@@ -159,11 +159,12 @@ img {
   align-items: center;
   text-align: center;
   overflow: hidden;
+  border-radius: 6px;
   border: 1px solid #3c3d49;
 }
 
 .gallery-item img {
-  border-radius: 6px;
+  overflow: hidden;
   transition: transform 0.3s ease-in-out;
 }
 
